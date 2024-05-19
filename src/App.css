@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #c82a2a;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 5px 50px;
+}
+
+.Section-main {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: calc(100vh - 60px);
+  overflow: scroll;
+  padding: 20px;
+}
+
+.Tablet-main {
+  /*max-width: 768px;*/
+}
+
+.FileName-column {
+  width: 20%;
+}
+
+.Text-column {
+  width: 20%;
+}
+
+.Number-column {
+    width: 20%;
+}
+
+.Hex-column {
+  width: 40%;
+}
